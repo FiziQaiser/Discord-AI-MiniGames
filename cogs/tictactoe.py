@@ -187,7 +187,7 @@ class TicTacToeView(View):
                 self.current_emoji_turn = CROSS_EMOJI
 
 # TicTacToe Cog to manage the Tic-Tac-Toe commands
-class Tictactoe(commands.GroupCog, group_name='tictactoe'):
+class TicTacToe(commands.GroupCog, group_name='tictactoe'):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
 
@@ -207,4 +207,4 @@ class Tictactoe(commands.GroupCog, group_name='tictactoe'):
 
 # Function to set up the TicTacToe Cog in the bot
 async def setup(bot):
-    await bot.add_cog(Tictactoe(bot))
+    await bot.add_cog(TicTacToe(bot))
