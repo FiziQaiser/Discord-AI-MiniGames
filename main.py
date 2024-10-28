@@ -21,7 +21,8 @@ async def on_ready():
     
     extensions = [
         "menu",
-        "tictactoe"
+        "tictactoe",
+        "connect4"
     ]
 
     for ext in extensions:
@@ -36,7 +37,6 @@ async def on_ready():
         print(f"Synced {len(synced)} command(s)")
     except Exception as e:
         print(e)
-
 
 if TOKEN is None:
     print("Error: Discord bot TOKEN not found in the .env file.")
