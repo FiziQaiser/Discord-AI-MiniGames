@@ -14,13 +14,16 @@
 
 ## Introduction
 
-**Discord-AI-MiniGames** is a Discord bot that brings classic games with a twist of advanced AI. This repository features a Tic-Tac-Toe game where players can challenge a computer opponent that uses the Alpha-Beta Pruning Minimax algorithm for optimal gameplay. Built with `discord.py`, this bot showcases intelligent gameplay and strategic depth, making classic games more exciting and interactive.
+**Discord-AI-MiniGames** is a Discord bot that brings classic games with a twist of advanced AI. This repository currently features Tic-Tac-Toe and Connect 4, allowing players to challenge computer opponents or friends in games that use optimal strategies. Built with `discord.py`, this bot offers intelligent gameplay and a fun experience.
 
 ## Features
 
-- **Alpha-Beta Pruning Minimax Algorithm:** Optimizes decision-making in Tic-Tac-Toe for challenging gameplay.
-- **Discord Integration:** Seamlessly integrates with Discord using `discord.py`.
-- **Game Expansion:** Framework designed for easy addition of new games with similar AI techniques.
+- **Play with Friends or Against AI:** Enjoy Tic-Tac-Toe and Connect 4 with other users or challenge the bot, which uses advanced AI for strategic gameplay.
+- **Tic-Tac-Toe with Alpha-Beta Pruning Minimax Algorithm:** The bot leverages Alpha-Beta Pruning with the Minimax algorithm to deliver a competitive Tic-Tac-Toe experience.
+- **Connect 4 with Alpha-Beta Pruning Minimax Algorithm:** Challenge the bot in Connect 4, where it applies optimal decision-making through Alpha-Beta Pruning to create a challenging experience.
+- **Discord Integration:** Seamlessly integrates with Discord using `discord.py` for smooth and interactive gameplay.
+- **Game Expansion:** The bot’s design supports the addition of new games and AI-based features, enabling ongoing enhancements.
+
 
 ## Setup
 
@@ -112,6 +115,9 @@ To use this bot in your Discord server, you'll first need to create a Discord bo
 - **Description:** Start a game of Tic-Tac-Toe against the bot or an opponent.
 - **Usage:** `/tictactoe play [opponent]`
 
+##### 2. `/connect4 play`
+- **Description:** Start a game of Connect 4 against the bot or an opponent.
+- **Usage:** `/connect4 play [opponent]`
 
 ## Contributing
 
@@ -119,4 +125,4 @@ Contributions are welcomed from the community. If you'd like to contribute, plea
 
 ---
 
-Feel free to customize the description, commands, and settings to better match your project's details!
+This README now includes a section for the Connect 4 command, and the updated features section reflects the addition of Connect 4.
